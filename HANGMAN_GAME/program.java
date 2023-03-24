@@ -55,9 +55,9 @@ public class java_hangman
 		}
 		if (count == 2) {
 			System.out.println("Wrong guess, try again");
-			System.out.println(" |");
-		    System.out.println(" .");
-		    System.out.println("/|\\");
+			System.out.println("  |  ");
+		    System.out.println("    .  ");
+		    System.out.println("   /|\\  ");
 		    
 		    System.out.println("Guesses left -> 5");
 		}
