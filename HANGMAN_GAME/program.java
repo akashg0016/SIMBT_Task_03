@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-public class Main
+public class java_hangman
 {   
 	private static String[] words = {"terminator", "banana", "computer", "cow", "rain", "water" };
 	private static String word = words[(int) (Math.random() * words.length)];
@@ -11,10 +10,10 @@ public class Main
 		Scanner sc = new Scanner(System.in);
 
 		while (count < 7 && asterisk.contains("*")) {
-			System.out.println("Guess any letter in the word");
+			System.out.println("Guess any letter in the word from alphabet [A-Za-z]");
 			System.out.println(asterisk);
 			String guess = sc.next();
-			hang(guess);
+			hang(guess.toLowerCase());
 		}
 		sc.close();
 	}
@@ -175,3 +174,4 @@ public class Main
 	
 	}
 }
+
