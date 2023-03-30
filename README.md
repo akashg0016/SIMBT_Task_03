@@ -1,5 +1,10 @@
 # SIMBT_Task_03
-//Winning Case
+
+It's a HangMan Game 
+
+Here, the player has to guess the word by entering the alphabet characters. It has two cases:
+
+//Let's see the Winning Case
 ![image](https://user-images.githubusercontent.com/109038021/227555908-e6e83d5c-dd3d-45b3-b029-45b603c1f315.png)
 ![image](https://user-images.githubusercontent.com/109038021/227556067-a6867684-809f-4afe-a081-8fb1e84daddc.png)
 ![image](https://user-images.githubusercontent.com/109038021/227556222-1de7f1d8-9980-4c34-8ff6-0ec987f1ca32.png)
